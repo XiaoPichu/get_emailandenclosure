@@ -104,8 +104,8 @@ def log_server(pop3,e_mail,pass_word):
     
 if __name__ == '__main__':
      # 账户信息
-    email = '1134125895@qq.com'
-    password = 'rlyqqxdnxtdphfci'
+    email = 'XXX@qq.com'
+    password = 'password'
     pop3_server = 'pop.qq.com'
     server = log_server(pop3_server,email,password)#登录
     savepath_subject = '正文'
